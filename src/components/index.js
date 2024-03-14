@@ -1,3 +1,4 @@
 import ButtomNavigator from './BottomNavigator'
+import Saldo from './saldo'
 
-export {ButtomNavigator}
+export {ButtomNavigator, Saldo}

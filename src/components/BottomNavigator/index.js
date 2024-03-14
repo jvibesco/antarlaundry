@@ -3,7 +3,7 @@ import React from 'react'
 import TabItem from '../TabItem';
 
 const BottomNavigator = ({ state, descriptors, navigation }) => {
-    return (
+  return (
         <View style={styles.container}>
           {state.routes.map((route, index) => {
             const { options } = descriptors[route.key];
